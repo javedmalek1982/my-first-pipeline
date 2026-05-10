@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "description": "My first CI/CD pipeline with GitHub Actions",
   "main": "src/calculator.js",
-"scripts": {
+  "scripts": {
+    "lint": "eslint src/",
     "test": "node --test tests/calculator.test.js"
-} ,
-  "keywords": ["devops", "ci-cd", "github-actions"],
+  },
+  "keywords": [
+    "devops",
+    "ci-cd",
+    "github-actions"
+  ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.3.0"
+  }
 }
