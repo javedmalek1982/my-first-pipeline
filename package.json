@@ -1,0 +1,12 @@
+{
+  "name": "my-first-pipeline",
+  "version": "1.0.0",
+  "description": "My first CI/CD pipeline with GitHub Actions",
+  "main": "src/calculator.js",
+"scripts": {
+    "test": "node --test tests/calculator.test.js"
+} ,
+  "keywords": ["devops", "ci-cd", "github-actions"],
+  "author": "",
+  "license": "MIT"
+}
