@@ -1,6 +1,4 @@
 // Add two numbers together
-var meaningOfLife = 42;
-
 function add(a, b) {
   return a + b;
 }
